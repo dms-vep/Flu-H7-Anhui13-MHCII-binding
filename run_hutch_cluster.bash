@@ -1,9 +1,9 @@
 #!/bin/bash
 #
-#SBATCH -c 8 
+#SBATCH -c 4 
 
 snakemake \
-    -j 8 \
+    -j 4 \
     -s dms-vep-pipeline-3/Snakefile \
     --rerun-incomplete \
     --software-deployment-method conda

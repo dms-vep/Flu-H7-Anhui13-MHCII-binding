@@ -1,0 +1,138 @@
+Assuming unrestricted shared filesystem usage.
+host: gizmok65
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Job stats:
+job                     count
+--------------------  -------
+all                         1
+build_docs                  1
+build_publish_docs          1
+cell_entry_mut_diffs        1
+configure_dms_viz           2
+notebook_html               2
+total                       8
+
+Select jobs to execute...
+Execute 2 jobs...
+
+[Wed Dec  3 21:11:03 2025]
+localrule configure_dms_viz:
+    input: results/summaries/entry_all_cells.csv, data/pdb_inputs_for_dms_viz/4LKJ_sitemap.csv, notebooks/configure_dms_viz.ipynb
+    output: results/dms-viz/cell_entry_on_4LKJ/cell_entry_on_4LKJ.json, results/dms-viz/cell_entry_on_4LKJ/cell_entry_on_4LKJ.pdb, results/dms-viz/cell_entry_on_4LKJ/cell_entry_on_4LKJ_data.csv, results/dms-viz/cell_entry_on_4LKJ/cell_entry_on_4LKJ_sitemap.csv, results/notebooks/configure_dms_viz_cell_entry_on_4LKJ.ipynb
+    log: results/logs/configure_dms_viz_cell_entry_on_4LKJ.txt
+    jobid: 38
+    reason: Missing output files: results/notebooks/configure_dms_viz_cell_entry_on_4LKJ.ipynb; Software environment definition has changed since last execution
+    wildcards: viz_name=cell_entry_on_4LKJ
+    resources: tmpdir=/loc/scratch/43103720
+Activating conda environment: .snakemake/conda/cf264ea471d36e66c0a311b09e79d31b_
+
+[Wed Dec  3 21:11:03 2025]
+localrule cell_entry_mut_diffs:
+    input: results/summaries/entry_all_cells.csv, notebooks/cell_entry_mut_diffs.ipynb
+    output: results/compare_cell_entry/mut_diffs.csv, results/notebooks/cell_entry_mut_diffs.ipynb
+    log: results/logs/cell_entry_mut_diffs.txt
+    jobid: 41
+    reason: Software environment definition has changed since last execution
+    resources: tmpdir=/loc/scratch/43103720
+Activating conda environment: .snakemake/conda/89c4524e601da89a538cb361523b6865_
+[Wed Dec  3 21:11:19 2025]
+Finished jobid: 41 (Rule: cell_entry_mut_diffs)
+1 of 8 steps (12%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  3 21:11:19 2025]
+localrule configure_dms_viz:
+    input: results/compare_cell_entry/mut_diffs.csv, data/pdb_inputs_for_dms_viz/4LKJ_sitemap.csv, notebooks/configure_dms_viz.ipynb
+    output: results/dms-viz/cell_entry_diffs_on_4LKJ/cell_entry_diffs_on_4LKJ.json, results/dms-viz/cell_entry_diffs_on_4LKJ/cell_entry_diffs_on_4LKJ.pdb, results/dms-viz/cell_entry_diffs_on_4LKJ/cell_entry_diffs_on_4LKJ_data.csv, results/dms-viz/cell_entry_diffs_on_4LKJ/cell_entry_diffs_on_4LKJ_sitemap.csv, results/notebooks/configure_dms_viz_cell_entry_diffs_on_4LKJ.ipynb
+    log: results/logs/configure_dms_viz_cell_entry_diffs_on_4LKJ.txt
+    jobid: 40
+    reason: Missing output files: results/notebooks/configure_dms_viz_cell_entry_diffs_on_4LKJ.ipynb; Input files updated by another job: results/compare_cell_entry/mut_diffs.csv
+    wildcards: viz_name=cell_entry_diffs_on_4LKJ
+    resources: tmpdir=/loc/scratch/43103720
+Activating conda environment: .snakemake/conda/cf264ea471d36e66c0a311b09e79d31b_
+[Wed Dec  3 21:11:22 2025]
+Finished jobid: 38 (Rule: configure_dms_viz)
+2 of 8 steps (25%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  3 21:11:22 2025]
+localrule notebook_html:
+    input: results/notebooks/configure_dms_viz_cell_entry_on_4LKJ.ipynb
+    output: results/notebooks/configure_dms_viz_cell_entry_on_4LKJ.html
+    log: results/logs/notebook_html_configure_dms_viz_cell_entry_on_4LKJ.txt
+    jobid: 37
+    reason: Input files updated by another job: results/notebooks/configure_dms_viz_cell_entry_on_4LKJ.ipynb
+    wildcards: notebook=configure_dms_viz_cell_entry_on_4LKJ
+    resources: tmpdir=/loc/scratch/43103720
+Activating conda environment: .snakemake/conda/89c4524e601da89a538cb361523b6865_
+[Wed Dec  3 21:11:28 2025]
+Finished jobid: 37 (Rule: notebook_html)
+3 of 8 steps (38%) done
+[Wed Dec  3 21:11:29 2025]
+Finished jobid: 40 (Rule: configure_dms_viz)
+4 of 8 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  3 21:11:29 2025]
+localrule notebook_html:
+    input: results/notebooks/configure_dms_viz_cell_entry_diffs_on_4LKJ.ipynb
+    output: results/notebooks/configure_dms_viz_cell_entry_diffs_on_4LKJ.html
+    log: results/logs/notebook_html_configure_dms_viz_cell_entry_diffs_on_4LKJ.txt
+    jobid: 39
+    reason: Input files updated by another job: results/notebooks/configure_dms_viz_cell_entry_diffs_on_4LKJ.ipynb
+    wildcards: notebook=configure_dms_viz_cell_entry_diffs_on_4LKJ
+    resources: tmpdir=/loc/scratch/43103720
+Activating conda environment: .snakemake/conda/89c4524e601da89a538cb361523b6865_
+[Wed Dec  3 21:11:34 2025]
+Finished jobid: 39 (Rule: notebook_html)
+5 of 8 steps (62%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  3 21:11:34 2025]
+localrule build_docs:
+    input: results/notebooks/analyze_variant_counts.html, results/func_effects/averages/293T_entry_func_effects.html, results/func_effects/averages/293_noSA_duck_MHCII_entry_func_effects.html, results/func_effects/averages/293T_entry_func_effects_singlemut.html, results/func_effects/averages/293_noSA_duck_MHCII_entry_func_effects_singlemut.html, results/func_effect_diffs/293T_vs_293_noSA_duck_MHCII_entry_diffs.html, results/func_effect_diffs/293T_vs_293_noSA_duck_MHCII_entry_diffs_corr.html, results/notebooks/analyze_func_scores.html, results/notebooks/func_effects_global_epistasis_LibA-251202-H7_293T.html, results/notebooks/func_effects_global_epistasis_LibB-251202-H7_293T.html, results/notebooks/func_effects_global_epistasis_LibA-251202-H7_293_noSA_duck_MHCII.html, results/notebooks/func_effects_global_epistasis_LibB-251202-H7_293_noSA_duck_MHCII.html, results/notebooks/avg_func_effects_293T_entry.html, results/notebooks/avg_func_effects_293_noSA_duck_MHCII_entry.html, results/notebooks/func_effect_diffs_293T_vs_293_noSA_duck_MHCII_entry.html, results/summaries/entry_all_cells_overlaid.html, results/wrapped_heatmaps/H7_Anhui13_293T.html, results/wrapped_heatmaps/H7_Anhui13_293_noSA_duck_MHCII.html, results/compare_cell_entry/compare_cell_entry_scatter.html, results/compare_cell_entry/compare_cell_entry_site_zoom.html, results/notebooks/compare_cell_entry.html, results/notebooks/configure_dms_viz_cell_entry_on_4LKJ.html, results/notebooks/configure_dms_viz_cell_entry_diffs_on_4LKJ.html
+    output: results/docs/index.html
+    log: results/logs/build_docs.txt
+    jobid: 2
+    reason: Input files updated by another job: results/notebooks/configure_dms_viz_cell_entry_diffs_on_4LKJ.html, results/notebooks/configure_dms_viz_cell_entry_on_4LKJ.html
+    resources: tmpdir=/loc/scratch/43103720
+Activating conda environment: .snakemake/conda/89c4524e601da89a538cb361523b6865_
+Activating conda environment: .snakemake/conda/89c4524e601da89a538cb361523b6865_
+[Wed Dec  3 21:11:37 2025]
+Finished jobid: 2 (Rule: build_docs)
+6 of 8 steps (75%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  3 21:11:37 2025]
+localrule build_publish_docs:
+    input: results/docs/index.html
+    output: results/publish_docs
+    log: results/logs/build_publish_docs.log
+    jobid: 1
+    reason: Input files updated by another job: results/docs/index.html
+    resources: tmpdir=/loc/scratch/43103720
+Activating conda environment: .snakemake/conda/89c4524e601da89a538cb361523b6865_
+[Wed Dec  3 21:11:39 2025]
+Finished jobid: 1 (Rule: build_publish_docs)
+7 of 8 steps (88%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  3 21:11:39 2025]
+localrule all:
+    input: results/publish_docs
+    jobid: 0
+    reason: Input files updated by another job: results/publish_docs
+    resources: tmpdir=/loc/scratch/43103720
+[Wed Dec  3 21:11:39 2025]
+Finished jobid: 0 (Rule: all)
+8 of 8 steps (100%) done
+Complete log(s): /fh/fast/bloom_j/computational_notebooks/bdadonai/2025/Flu-H7-Anhui13-MHCII-binding/.snakemake/log/2025-12-03T211055.091631.snakemake.log
