@@ -1,5 +1,4 @@
 Input Notebook:  notebooks/cell_entry_mut_diffs.ipynb
 Output Notebook: results/notebooks/cell_entry_mut_diffs.ipynb
 Executing:   0%|          | 0/7 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:  14%|█▍        | 1/7 [00:03<00:20,  3.47s/cell]Executing:  29%|██▊       | 2/7 [00:06<00:15,  3.09s/cell]Executing: 100%|██████████| 7/7 [00:06<00:00,  1.61cell/s][IPKernelApp] ERROR | KeyboardInterrupt caught in kernel.
-Executing: 100%|██████████| 7/7 [00:06<00:00,  1.02cell/s]
+Executing:  14%|█▍        | 1/7 [00:03<00:18,  3.09s/cell]Executing:  29%|██▊       | 2/7 [00:04<00:11,  2.39s/cell]Executing: 100%|██████████| 7/7 [00:05<00:00,  2.06cell/s]Executing: 100%|██████████| 7/7 [00:05<00:00,  1.26cell/s]
