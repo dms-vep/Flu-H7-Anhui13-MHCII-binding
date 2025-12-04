@@ -37,7 +37,7 @@ To visualize these docs via GitHub Pages, run:
 
     dms-vep-pipeline-3/publish_docs_gh-pages.sh
 
-This pushes the docs to the *gh-pages* branch, we can be viewed on GitHub Pages at [https://dms-vep.org/Flu_H7_Anhui13_MHCII_binding/](https://dms-vep.org/Flu_H7_Anhui13_MHCII_binding/).
+This pushes the docs to the *gh-pages* branch, we can be viewed on GitHub Pages at [https://dms-vep.org/Flu-H7-Anhui13-MHCII-binding/](https://dms-vep.org/Flu-H7-Anhui13-MHCII-binding/).
 
 
 ## Running the pipeline
