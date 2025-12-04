@@ -1,0 +1,4 @@
+Input Notebook:  notebooks/compare_cell_entry.ipynb
+Output Notebook: results/notebooks/compare_cell_entry.ipynb
+Executing:   0%|          | 0/19 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   5%|▌         | 1/19 [00:01<00:26,  1.48s/cell]Executing:  11%|█         | 2/19 [00:06<00:56,  3.33s/cell]Executing:  37%|███▋      | 7/19 [00:06<00:07,  1.52cell/s]Executing:  53%|█████▎    | 10/19 [00:06<00:03,  2.39cell/s]Executing:  63%|██████▎   | 12/19 [00:06<00:02,  2.68cell/s]Executing:  79%|███████▉  | 15/19 [00:07<00:01,  4.00cell/s]Executing:  89%|████████▉ | 17/19 [00:09<00:00,  2.16cell/s]Executing: 100%|██████████| 19/19 [00:10<00:00,  2.04cell/s]Executing: 100%|██████████| 19/19 [00:11<00:00,  1.69cell/s]

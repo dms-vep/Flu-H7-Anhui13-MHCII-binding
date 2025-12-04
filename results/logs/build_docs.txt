@@ -1,0 +1,136 @@
+Cleaning docs directory: results/docs
+Removed existing results/docs
+Created docs directory: results/docs
+Created subdirectories: notebooks/ and htmls/
+
+Copying 23 HTML files to docs directory:
+  results/notebooks/analyze_variant_counts.html -> results/docs/notebooks/analyze_variant_counts.html
+  results/func_effects/averages/293T_entry_func_effects.html -> results/docs/htmls/293T_entry_func_effects.html
+  results/func_effects/averages/293_noSA_duck_MHCII_entry_func_effects.html -> results/docs/htmls/293_noSA_duck_MHCII_entry_func_effects.html
+  results/func_effects/averages/293T_entry_func_effects_singlemut.html -> results/docs/htmls/293T_entry_func_effects_singlemut.html
+  results/func_effects/averages/293_noSA_duck_MHCII_entry_func_effects_singlemut.html -> results/docs/htmls/293_noSA_duck_MHCII_entry_func_effects_singlemut.html
+  results/func_effect_diffs/293T_vs_293_noSA_duck_MHCII_entry_diffs.html -> results/docs/htmls/293T_vs_293_noSA_duck_MHCII_entry_diffs.html
+  results/func_effect_diffs/293T_vs_293_noSA_duck_MHCII_entry_diffs_corr.html -> results/docs/htmls/293T_vs_293_noSA_duck_MHCII_entry_diffs_corr.html
+  results/notebooks/analyze_func_scores.html -> results/docs/notebooks/analyze_func_scores.html
+  results/notebooks/func_effects_global_epistasis_LibA-251202-H7_293T.html -> results/docs/notebooks/func_effects_global_epistasis_LibA-251202-H7_293T.html
+  results/notebooks/func_effects_global_epistasis_LibB-251202-H7_293T.html -> results/docs/notebooks/func_effects_global_epistasis_LibB-251202-H7_293T.html
+  results/notebooks/func_effects_global_epistasis_LibA-251202-H7_293_noSA_duck_MHCII.html -> results/docs/notebooks/func_effects_global_epistasis_LibA-251202-H7_293_noSA_duck_MHCII.html
+  results/notebooks/func_effects_global_epistasis_LibB-251202-H7_293_noSA_duck_MHCII.html -> results/docs/notebooks/func_effects_global_epistasis_LibB-251202-H7_293_noSA_duck_MHCII.html
+  results/notebooks/avg_func_effects_293T_entry.html -> results/docs/notebooks/avg_func_effects_293T_entry.html
+  results/notebooks/avg_func_effects_293_noSA_duck_MHCII_entry.html -> results/docs/notebooks/avg_func_effects_293_noSA_duck_MHCII_entry.html
+  results/notebooks/func_effect_diffs_293T_vs_293_noSA_duck_MHCII_entry.html -> results/docs/notebooks/func_effect_diffs_293T_vs_293_noSA_duck_MHCII_entry.html
+  results/summaries/entry_all_cells_overlaid.html -> results/docs/htmls/entry_all_cells_overlaid.html
+  results/wrapped_heatmaps/H7_Anhui13_293T.html -> results/docs/htmls/H7_Anhui13_293T.html
+  results/wrapped_heatmaps/H7_Anhui13_293_noSA_duck_MHCII.html -> results/docs/htmls/H7_Anhui13_293_noSA_duck_MHCII.html
+  results/compare_cell_entry/compare_cell_entry_scatter.html -> results/docs/htmls/compare_cell_entry_scatter.html
+  results/compare_cell_entry/compare_cell_entry_site_zoom.html -> results/docs/htmls/compare_cell_entry_site_zoom.html
+  results/notebooks/compare_cell_entry.html -> results/docs/notebooks/compare_cell_entry.html
+  results/notebooks/configure_dms_viz_cell_entry_on_4LKJ.html -> results/docs/notebooks/configure_dms_viz_cell_entry_on_4LKJ.html
+  results/notebooks/configure_dms_viz_cell_entry_diffs_on_4LKJ.html -> results/docs/notebooks/configure_dms_viz_cell_entry_diffs_on_4LKJ.html
+
+Generating index.html...
+Rendering the following markdown text:
+
+# Pseudovirus deep mutational scanning for MHCII binding by A/Anhui/1/2013 H7 pseudovirus
+Analysis by Bernadeta Dadonaite and Jesse Bloom (2025)
+
+See [https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding) for full code.
+
+Documentation of results rendered as of Wed Dec  3 20:52:34 2025
+
+[TOC]
+
+## Barcode to codon-variant lookup table
+#### Data files
+  - [parental codon sequence](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/gene_sequence/codon.fasta)
+  - [parental protein sequence](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/gene_sequence/protein.fasta)
+  - [barcode to codon-variant lookup table](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/variants/codon_variants.csv)
+## Count barcodes for variants
+#### Analysis notebooks
+  - [Analysis of variant counts](notebooks/analyze_variant_counts.html)
+#### Data files
+  - Barcode count CSVs
+    - [A-251202-H7_293T](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/barcode_counts/A-251202-H7_293T_counts.csv)
+    - [A-251202-H7_293_noSA_duck_MHCII](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/barcode_counts/A-251202-H7_293_noSA_duck_MHCII_counts.csv)
+    - [B-251202-H7_293T](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/barcode_counts/B-251202-H7_293T_counts.csv)
+    - [A-251202-VSVG_293T](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/barcode_counts/A-251202-VSVG_293T_counts.csv)
+    - [B-251202-H7_293_noSA_duck_MHCII](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/barcode_counts/B-251202-H7_293_noSA_duck_MHCII_counts.csv)
+    - [B-251202-VSVG_293T](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/barcode_counts/B-251202-VSVG_293T_counts.csv)
+## Functional effects of mutations
+#### Final summary plots
+  - Interactive plots of average mutation functional effects
+    - [293T_entry](htmls/293T_entry_func_effects.html)
+    - [293_noSA_duck_MHCII_entry](htmls/293_noSA_duck_MHCII_entry_func_effects.html)
+  - Interactive plots of average mutation functional effects from single-mutant variants only
+    - [293T_entry](htmls/293T_entry_func_effects_singlemut.html)
+    - [293_noSA_duck_MHCII_entry](htmls/293_noSA_duck_MHCII_entry_func_effects_singlemut.html)
+  - Interactive plots of differences in functional effects between conditions
+    - [293T_vs_293_noSA_duck_MHCII_entry](htmls/293T_vs_293_noSA_duck_MHCII_entry_diffs.html)
+    - [293T_vs_293_noSA_duck_MHCII_entry correlation chart](htmls/293T_vs_293_noSA_duck_MHCII_entry_diffs_corr.html)
+#### Analysis notebooks
+  - [Analysis of functional scores](notebooks/analyze_func_scores.html)
+  - Notebooks with per-selection global epistasis fitting
+    - [LibA-251202-H7_293T](notebooks/func_effects_global_epistasis_LibA-251202-H7_293T.html)
+    - [LibB-251202-H7_293T](notebooks/func_effects_global_epistasis_LibB-251202-H7_293T.html)
+    - [LibA-251202-H7_293_noSA_duck_MHCII](notebooks/func_effects_global_epistasis_LibA-251202-H7_293_noSA_duck_MHCII.html)
+    - [LibB-251202-H7_293_noSA_duck_MHCII](notebooks/func_effects_global_epistasis_LibB-251202-H7_293_noSA_duck_MHCII.html)
+  - Notebooks averaging mutation functional effects
+    - [293T_entry](notebooks/avg_func_effects_293T_entry.html)
+    - [293_noSA_duck_MHCII_entry](notebooks/avg_func_effects_293_noSA_duck_MHCII_entry.html)
+  - Notebooks taking differences in functional effects between conditions
+    - [293T_vs_293_noSA_duck_MHCII_entry](notebooks/func_effect_diffs_293T_vs_293_noSA_duck_MHCII_entry.html)
+#### Data files
+  - Per-variant functional score CSVs
+    - [LibA-251202-H7_293T](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/func_scores/LibA-251202-H7_293T_func_scores.csv)
+    - [LibB-251202-H7_293T](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/func_scores/LibB-251202-H7_293T_func_scores.csv)
+    - [LibA-251202-H7_293_noSA_duck_MHCII](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/func_scores/LibA-251202-H7_293_noSA_duck_MHCII_func_scores.csv)
+    - [LibB-251202-H7_293_noSA_duck_MHCII](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/func_scores/LibB-251202-H7_293_noSA_duck_MHCII_func_scores.csv)
+  - Per-selection mutation functional effect CSVs
+    - [LibA-251202-H7_293T](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/func_effects/by_selection/LibA-251202-H7_293T_func_effects.csv)
+    - [LibB-251202-H7_293T](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/func_effects/by_selection/LibB-251202-H7_293T_func_effects.csv)
+    - [LibA-251202-H7_293_noSA_duck_MHCII](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/func_effects/by_selection/LibA-251202-H7_293_noSA_duck_MHCII_func_effects.csv)
+    - [LibB-251202-H7_293_noSA_duck_MHCII](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/func_effects/by_selection/LibB-251202-H7_293_noSA_duck_MHCII_func_effects.csv)
+  - Average mutation functional effects (CSV files)
+    - [293T_entry](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/func_effects/averages/293T_entry_func_effects.csv)
+    - [293_noSA_duck_MHCII_entry](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/func_effects/averages/293_noSA_duck_MHCII_entry_func_effects.csv)
+  - Average mutation functional effects from single-mutant variants only (CSV files)
+    - [293T_entry](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/func_effects/averages/293T_entry_func_effects_singlemut.csv)
+    - [293_noSA_duck_MHCII_entry](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/func_effects/averages/293_noSA_duck_MHCII_entry_func_effects_singlemut.csv)
+  - Average mutation latent-phenotype effects (CSV files)
+    - [293T_entry](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/func_effects/averages/293T_entry_func_effects.csv)
+    - [293_noSA_duck_MHCII_entry](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/func_effects/averages/293_noSA_duck_MHCII_entry_func_effects.csv)
+  - Differences in functional effects (CSV files)
+    - [293T_vs_293_noSA_duck_MHCII_entry](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/func_effect_diffs/293T_vs_293_noSA_duck_MHCII_entry_diffs.csv)
+## Integrated summary plots
+#### entry all cells
+  - [Summary plot](htmls/entry_all_cells_overlaid.html)
+  - [CSV summarizing results](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/summaries/entry_all_cells.csv)
+## Wrapped heatmaps
+#### Heatmap HTMLs
+  - [H7_Anhui13_293T](htmls/H7_Anhui13_293T.html)
+  - [H7_Anhui13_293_noSA_duck_MHCII](htmls/H7_Anhui13_293_noSA_duck_MHCII.html)
+## Compare entry among cells
+#### Final plots
+  - [Scatter plots of mutation effects in different cells](htmls/compare_cell_entry_scatter.html)
+  - [Zoomable site chart of differences](htmls/compare_cell_entry_site_zoom.html)
+#### Analysis notebooks
+  - [Notebook making plots comparing entry](notebooks/compare_cell_entry.html)
+#### Data files
+  - [site-differences in entry effects](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/compare_cell_entry/site_diffs.csv)
+  - [mutation-differences in entry effects (after flooring negative values)](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/compare_cell_entry/mut_diffs.csv)
+## dms-viz visualizations
+#### dms-viz JSON files
+  - [cell_entry_on_4LKJ](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/dms-viz/cell_entry_on_4LKJ/cell_entry_on_4LKJ.json)
+  - [cell_entry_diffs_on_4LKJ](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/results/dms-viz/cell_entry_diffs_on_4LKJ/cell_entry_diffs_on_4LKJ.json)
+#### Notebooks prepping dms-viz JSONs
+  - [cell_entry_on_4LKJ](notebooks/configure_dms_viz_cell_entry_on_4LKJ.html)
+  - [cell_entry_diffs_on_4LKJ](notebooks/configure_dms_viz_cell_entry_diffs_on_4LKJ.html)
+## Additional files
+#### HA site numbering
+  - [CSV converting among different protein numbering schemes](https://github.com/dms-vep/Flu_H7_Anhui13_MHCII_binding/blob/main/data/site_numbering_map.csv)
+
+
+Collapsing the following nested lists:
+['Barcode count CSVs', 'Interactive plots of average mutation functional effects', 'Interactive plots of average mutation functional effects from single-mutant variants only', 'Interactive plots of differences in functional effects between conditions', 'Notebooks with per-selection global epistasis fitting', 'Notebooks averaging mutation functional effects', 'Notebooks taking differences in functional effects between conditions', 'Per-variant functional score CSVs', 'Per-selection mutation functional effect CSVs', 'Average mutation functional effects (CSV files)', 'Average mutation functional effects from single-mutant variants only (CSV files)', 'Average mutation latent-phenotype effects (CSV files)', 'Differences in functional effects (CSV files)']
+
+Successfully built documentation in results/docs

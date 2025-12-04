@@ -1,0 +1,26 @@
+Computing functional scores for selection=LibA-251202-H7_293T
+
+These samples are for library='A'
+
+Getting pre_selection_sample barcode counts from results/barcode_counts/A-251202-VSVG_293T_counts.csv
+
+Getting post_selection_sample barcode counts from results/barcode_counts/A-251202-H7_293T_counts.csv
+
+Using pseudocount 0.5
+Requiring at least 19142.81 total wildtype counts for pre_count, which is the greater of min_wt_count=1000 and min_wt_frac=0.001 of the 19142810 total counts.
+
+Adequate pre_count wildtype counts of 3369286
+
+Requiring at least 25650.936 total wildtype counts for post_count, which is the greater of min_wt_count=1000 and min_wt_frac=0.001 of the 25650936 total counts.
+
+Adequate post_count wildtype counts of 8734094
+
+Only keeping scores for variants with at least 19.14281 pre-selection counts:
+                                 n_variants
+sufficient_pre_selection_counts            
+False                                  1306
+True                                  36381
+
+Writing summary counts to results/func_scores/LibA-251202-H7_293T_count_summary.csv
+
+Writing functional scores to results/func_scores/LibA-251202-H7_293T_func_scores.csv

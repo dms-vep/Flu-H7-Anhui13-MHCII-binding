@@ -1,0 +1,2 @@
+selection,library,pre_selection_sample,post_selection_sample,pre_selection_date,post_selection_date,min_pre_selection_count,pre_count_median,pre_count_q1,pre_count_q3,pre_count_min,pre_count_max,post_count_median,post_count_q1,post_count_q3,post_count_min,post_count_max
+LibB-251202-H7_293_noSA_duck_MHCII,B,B-251202-VSVG_293T,B-251202-H7_293_noSA_duck_MHCII,2025-12-02,2025-12-02,32.922703999999996,433.0,185.0,916.0,0,31333,99.0,6.0,435.0,0,25277

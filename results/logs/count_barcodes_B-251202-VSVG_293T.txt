@@ -1,0 +1,10 @@
+There are 44061 valid barcodes for library='B'
+Parsing barcodes from /fh/fast/bloom_j/SR/ngs/illumina/bdadonai/251203_VH00699_597_AAHJLVYM5/Unaligned/Project_bdadonai/VSVG_LibB_293T_S6_R1_001.fastq.gz
+Counts of valid and invalid barcodes:
+       n_barcodes  n_counts
+valid                      
+False      263913  11665009
+True        43382  32922704
+Writing valid barcode counts to results/barcode_counts/B-251202-VSVG_293T_counts.csv
+Writing invalid barcode counts to results/barcode_counts/B-251202-VSVG_293T_invalid.csv
+Writing barcode fates to results/barcode_counts/B-251202-VSVG_293T_fates.csv

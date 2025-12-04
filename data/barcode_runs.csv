@@ -1,0 +1,7 @@
+﻿sample,library,date,fastq_R1,notes
+A-251202-H7_293T,A,20251202,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/251203_VH00699_597_AAHJLVYM5/Unaligned/Project_bdadonai/H7_LibA_293T_S1_R1_001.fastq.gz,
+A-251202-H7_293_noSA_duck_MHCII,A,20251202,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/251203_VH00699_597_AAHJLVYM5/Unaligned/Project_bdadonai/H7_LibA_duckMHCII_S3_R1_001.fastq.gz,
+B-251202-H7_293T,B,20251202,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/251203_VH00699_597_AAHJLVYM5/Unaligned/Project_bdadonai/H7_LibB_293T_S2_R1_001.fastq.gz,
+A-251202-VSVG_293T,A,20251202,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/251203_VH00699_597_AAHJLVYM5/Unaligned/Project_bdadonai/H7_LibB_duckMHCII_S4_R1_001.fastq.gz,#looks like I mixed up sample and that's why sample name does not match fasta file name
+B-251202-H7_293_noSA_duck_MHCII,B,20251202,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/251203_VH00699_597_AAHJLVYM5/Unaligned/Project_bdadonai/VSVG_LibA_293T_S5_R1_001.fastq.gz,#looks like I mixed up sample and that's why sample name does not match fasta file name
+B-251202-VSVG_293T,B,20251202,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/251203_VH00699_597_AAHJLVYM5/Unaligned/Project_bdadonai/VSVG_LibB_293T_S6_R1_001.fastq.gz,

@@ -1,0 +1,4 @@
+Input Notebook:  notebooks/configure_dms_viz.ipynb
+Output Notebook: results/notebooks/configure_dms_viz_cell_entry_diffs_on_4LKJ.ipynb
+Executing:   0%|          | 0/19 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   5%|▌         | 1/19 [00:03<00:56,  3.13s/cell]Executing:  11%|█         | 2/19 [00:09<01:27,  5.14s/cell]Executing:  37%|███▋      | 7/19 [00:09<00:12,  1.01s/cell]Executing:  53%|█████▎    | 10/19 [00:09<00:05,  1.61cell/s]Executing:  63%|██████▎   | 12/19 [00:10<00:03,  2.01cell/s]Executing:  74%|███████▎  | 14/19 [00:10<00:01,  2.69cell/s]Executing:  84%|████████▍ | 16/19 [00:10<00:00,  3.55cell/s]Executing: 100%|██████████| 19/19 [00:12<00:00,  2.21cell/s]Executing: 100%|██████████| 19/19 [00:13<00:00,  1.41cell/s]
