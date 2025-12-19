@@ -5,3 +5,17 @@ B-251202-H7_293T,B,20251202,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/251203_VH0
 A-251202-VSVG_293T,A,20251202,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/251203_VH00699_597_AAHJLVYM5/Unaligned/Project_bdadonai/H7_LibB_duckMHCII_S4_R1_001.fastq.gz,#looks like I mixed up sample and that's why sample name does not match fasta file name
 B-251202-H7_293_noSA_duck_MHCII,B,20251202,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/251203_VH00699_597_AAHJLVYM5/Unaligned/Project_bdadonai/VSVG_LibA_293T_S5_R1_001.fastq.gz,#looks like I mixed up sample and that's why sample name does not match fasta file name
 B-251202-VSVG_293T,B,20251202,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/251203_VH00699_597_AAHJLVYM5/Unaligned/Project_bdadonai/VSVG_LibB_293T_S6_R1_001.fastq.gz,
+A-251218-duck_MHCII_24,A,20251218,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20251217_LH00740_0167_B23FF2FLT3/Unaligned/duck_MHCII_VLP_selections_161225/H7_Lib1_1_IC50_27_S13_L001_R1_001.fastq.gz,
+A-251218-duck_MHCII_8,A,20251218,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20251217_LH00740_0167_B23FF2FLT3/Unaligned/duck_MHCII_VLP_selections_161225/H7_Lib1_2_IC50_9_S14_L001_R1_001.fastq.gz,
+A-251218-duck_MHCII_09,A,20251218,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20251217_LH00740_0167_B23FF2FLT3/Unaligned/duck_MHCII_VLP_selections_161225/H7_Lib1_3_IC50_S15_L001_R1_001.fastq.gz,
+A-251218-duck_MHCII_04,A,20251218,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20251217_LH00740_0167_B23FF2FLT3/Unaligned/duck_MHCII_VLP_selections_161225/H7_Lib1_4_IC50_d2_S16_L001_R1_001.fastq.gz,
+A-251218-duck_MHCII_02,A,20251218,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20251217_LH00740_0167_B23FF2FLT3/Unaligned/duck_MHCII_VLP_selections_161225/H7_Lib1_5_IC50_d4_S17_L001_R1_001.fastq.gz,
+A-251218-duck_MHCII_015,A,20251218,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20251217_LH00740_0167_B23FF2FLT3/Unaligned/duck_MHCII_VLP_selections_161225/H7_Lib1_6_IC50_d6_S18_L001_R1_001.fastq.gz,
+A-251218-duck_MHCII-no-antibody_control,A,20251218,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20251217_LH00740_0167_B23FF2FLT3/Unaligned/duck_MHCII_VLP_selections_161225/H7_Lib1_no_mAb_S27_L001_R1_001.fastq.gz,
+B-251218-duck_MHCII_24,B,20251218,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20251217_LH00740_0167_B23FF2FLT3/Unaligned/duck_MHCII_VLP_selections_161225/H7_Lib2_1_IC50_27_S19_L001_R1_001.fastq.gz,
+B-251218-duck_MHCII_8,B,20251218,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20251217_LH00740_0167_B23FF2FLT3/Unaligned/duck_MHCII_VLP_selections_161225/H7_Lib2_2_IC50_9_S20_L001_R1_001.fastq.gz,
+B-251218-duck_MHCII_09,B,20251218,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20251217_LH00740_0167_B23FF2FLT3/Unaligned/duck_MHCII_VLP_selections_161225/H7_Lib2_3_IC50_S21_L001_R1_001.fastq.gz,
+B-251218-duck_MHCII_04,B,20251218,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20251217_LH00740_0167_B23FF2FLT3/Unaligned/duck_MHCII_VLP_selections_161225/H7_Lib2_4_IC50_d2_S22_L001_R1_001.fastq.gz,
+B-251218-duck_MHCII_02,B,20251218,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20251217_LH00740_0167_B23FF2FLT3/Unaligned/duck_MHCII_VLP_selections_161225/H7_Lib2_5_IC50_d4_S23_L001_R1_001.fastq.gz,
+B-251218-duck_MHCII_015,B,20251218,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20251217_LH00740_0167_B23FF2FLT3/Unaligned/duck_MHCII_VLP_selections_161225/H7_Lib2_6_IC50_d6_S24_L001_R1_001.fastq.gz,
+B-251218-duck_MHCII-no-antibody_control,B,20251218,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20251217_LH00740_0167_B23FF2FLT3/Unaligned/duck_MHCII_VLP_selections_161225/H7_Lib2_no_mAb_S28_L001_R1_001.fastq.gz,

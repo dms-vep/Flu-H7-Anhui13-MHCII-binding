@@ -1,4 +1,4 @@
 Input Notebook:  notebooks/cell_entry_mut_diffs.ipynb
 Output Notebook: results/notebooks/cell_entry_mut_diffs.ipynb
 Executing:   0%|          | 0/7 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:  14%|█▍        | 1/7 [00:03<00:18,  3.09s/cell]Executing:  29%|██▊       | 2/7 [00:04<00:11,  2.39s/cell]Executing: 100%|██████████| 7/7 [00:05<00:00,  2.06cell/s]Executing: 100%|██████████| 7/7 [00:05<00:00,  1.26cell/s]
+Executing:  14%|█▍        | 1/7 [00:18<01:48, 18.13s/cell]Executing:  29%|██▊       | 2/7 [00:23<00:52, 10.59s/cell]Executing: 100%|██████████| 7/7 [00:23<00:00,  2.09s/cell]Executing: 100%|██████████| 7/7 [00:24<00:00,  3.43s/cell]
