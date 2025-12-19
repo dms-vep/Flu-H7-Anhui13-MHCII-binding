@@ -3,7 +3,7 @@ Removed existing results/docs
 Created docs directory: results/docs
 Created subdirectories: notebooks/ and htmls/
 
-Copying 23 HTML files to docs directory:
+Copying 27 HTML files to docs directory:
   results/notebooks/analyze_variant_counts.html -> results/docs/notebooks/analyze_variant_counts.html
   results/func_effects/averages/293T_entry_func_effects.html -> results/docs/htmls/293T_entry_func_effects.html
   results/func_effects/averages/293_noSA_duck_MHCII_entry_func_effects.html -> results/docs/htmls/293_noSA_duck_MHCII_entry_func_effects.html
@@ -19,6 +19,10 @@ Copying 23 HTML files to docs directory:
   results/notebooks/avg_func_effects_293T_entry.html -> results/docs/notebooks/avg_func_effects_293T_entry.html
   results/notebooks/avg_func_effects_293_noSA_duck_MHCII_entry.html -> results/docs/notebooks/avg_func_effects_293_noSA_duck_MHCII_entry.html
   results/notebooks/func_effect_diffs_293T_vs_293_noSA_duck_MHCII_entry.html -> results/docs/notebooks/func_effect_diffs_293T_vs_293_noSA_duck_MHCII_entry.html
+  results/MHCII_binding/averages/duck_MHCII_binding_mut_effect.html -> results/docs/htmls/duck_MHCII_binding_mut_effect.html
+  results/notebooks/fit_escape_MHCII_binding_A-251218-duck_MHCII.html -> results/docs/notebooks/fit_escape_MHCII_binding_A-251218-duck_MHCII.html
+  results/notebooks/fit_escape_MHCII_binding_B-251218-duck_MHCII.html -> results/docs/notebooks/fit_escape_MHCII_binding_B-251218-duck_MHCII.html
+  results/notebooks/avg_escape_MHCII_binding_duck_MHCII_binding.html -> results/docs/notebooks/avg_escape_MHCII_binding_duck_MHCII_binding.html
   results/summaries/entry_all_cells_overlaid.html -> results/docs/htmls/entry_all_cells_overlaid.html
   results/wrapped_heatmaps/H7_Anhui13_293T.html -> results/docs/htmls/H7_Anhui13_293T.html
   results/wrapped_heatmaps/H7_Anhui13_293_noSA_duck_MHCII.html -> results/docs/htmls/H7_Anhui13_293_noSA_duck_MHCII.html
@@ -36,7 +40,7 @@ Analysis by Bernadeta Dadonaite and Jesse Bloom (2025)
 
 See [https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding) for full code.
 
-Documentation of results rendered as of Wed Dec  3 21:28:01 2025
+Documentation of results rendered as of Fri Dec 19 12:27:08 2025
 
 [TOC]
 
@@ -56,6 +60,20 @@ Documentation of results rendered as of Wed Dec  3 21:28:01 2025
     - [A-251202-VSVG_293T](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/A-251202-VSVG_293T_counts.csv)
     - [B-251202-H7_293_noSA_duck_MHCII](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/B-251202-H7_293_noSA_duck_MHCII_counts.csv)
     - [B-251202-VSVG_293T](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/B-251202-VSVG_293T_counts.csv)
+    - [A-251218-duck_MHCII_24](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/A-251218-duck_MHCII_24_counts.csv)
+    - [A-251218-duck_MHCII_8](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/A-251218-duck_MHCII_8_counts.csv)
+    - [A-251218-duck_MHCII_09](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/A-251218-duck_MHCII_09_counts.csv)
+    - [A-251218-duck_MHCII_04](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/A-251218-duck_MHCII_04_counts.csv)
+    - [A-251218-duck_MHCII_02](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/A-251218-duck_MHCII_02_counts.csv)
+    - [A-251218-duck_MHCII_015](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/A-251218-duck_MHCII_015_counts.csv)
+    - [A-251218-duck_MHCII-no-antibody_control](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/A-251218-duck_MHCII-no-antibody_control_counts.csv)
+    - [B-251218-duck_MHCII_24](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/B-251218-duck_MHCII_24_counts.csv)
+    - [B-251218-duck_MHCII_8](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/B-251218-duck_MHCII_8_counts.csv)
+    - [B-251218-duck_MHCII_09](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/B-251218-duck_MHCII_09_counts.csv)
+    - [B-251218-duck_MHCII_04](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/B-251218-duck_MHCII_04_counts.csv)
+    - [B-251218-duck_MHCII_02](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/B-251218-duck_MHCII_02_counts.csv)
+    - [B-251218-duck_MHCII_015](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/B-251218-duck_MHCII_015_counts.csv)
+    - [B-251218-duck_MHCII-no-antibody_control](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/B-251218-duck_MHCII-no-antibody_control_counts.csv)
 ## Functional effects of mutations
 #### Final summary plots
   - Interactive plots of average mutation functional effects
@@ -101,6 +119,32 @@ Documentation of results rendered as of Wed Dec  3 21:28:01 2025
     - [293_noSA_duck_MHCII_entry](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/func_effects/averages/293_noSA_duck_MHCII_entry_func_effects.csv)
   - Differences in functional effects (CSV files)
     - [293T_vs_293_noSA_duck_MHCII_entry](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/func_effect_diffs/293T_vs_293_noSA_duck_MHCII_entry_diffs.csv)
+## MHCII binding
+#### Final summary plots
+  - MHCII binding mutation effect plots
+    - [duck_MHCII_binding](htmls/duck_MHCII_binding_mut_effect.html)
+#### Analysis notebooks
+  - Fits of polyclonal models to individual MHCII binding selections
+    - [A-251218-duck_MHCII](notebooks/fit_escape_MHCII_binding_A-251218-duck_MHCII.html)
+    - [B-251218-duck_MHCII](notebooks/fit_escape_MHCII_binding_B-251218-duck_MHCII.html)
+  - Average selections for MHCII binding
+    - [duck_MHCII_binding](notebooks/avg_escape_MHCII_binding_duck_MHCII_binding.html)
+#### Data files
+  - Probability (fraction) escape for each variant in each MHCII binding selection (CSVs)
+    - [A-251218-duck_MHCII A-251218-duck_MHCII_24](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/A-251218-duck_MHCII/A-251218-duck_MHCII_24_prob_escape.csv)
+    - [A-251218-duck_MHCII A-251218-duck_MHCII_8](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/A-251218-duck_MHCII/A-251218-duck_MHCII_8_prob_escape.csv)
+    - [A-251218-duck_MHCII A-251218-duck_MHCII_09](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/A-251218-duck_MHCII/A-251218-duck_MHCII_09_prob_escape.csv)
+    - [A-251218-duck_MHCII A-251218-duck_MHCII_04](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/A-251218-duck_MHCII/A-251218-duck_MHCII_04_prob_escape.csv)
+    - [A-251218-duck_MHCII A-251218-duck_MHCII_02](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/A-251218-duck_MHCII/A-251218-duck_MHCII_02_prob_escape.csv)
+    - [A-251218-duck_MHCII A-251218-duck_MHCII_015](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/A-251218-duck_MHCII/A-251218-duck_MHCII_015_prob_escape.csv)
+    - [B-251218-duck_MHCII B-251218-duck_MHCII_24](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/B-251218-duck_MHCII/B-251218-duck_MHCII_24_prob_escape.csv)
+    - [B-251218-duck_MHCII B-251218-duck_MHCII_8](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/B-251218-duck_MHCII/B-251218-duck_MHCII_8_prob_escape.csv)
+    - [B-251218-duck_MHCII B-251218-duck_MHCII_09](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/B-251218-duck_MHCII/B-251218-duck_MHCII_09_prob_escape.csv)
+    - [B-251218-duck_MHCII B-251218-duck_MHCII_04](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/B-251218-duck_MHCII/B-251218-duck_MHCII_04_prob_escape.csv)
+    - [B-251218-duck_MHCII B-251218-duck_MHCII_02](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/B-251218-duck_MHCII/B-251218-duck_MHCII_02_prob_escape.csv)
+    - [B-251218-duck_MHCII B-251218-duck_MHCII_015](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/B-251218-duck_MHCII/B-251218-duck_MHCII_015_prob_escape.csv)
+  - MHCII binding CSVs
+    - [duck_MHCII_binding](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/averages/duck_MHCII_binding_mut_effect.csv)
 ## Integrated summary plots
 #### entry all cells
   - [Summary plot](htmls/entry_all_cells_overlaid.html)
@@ -131,6 +175,6 @@ Documentation of results rendered as of Wed Dec  3 21:28:01 2025
 
 
 Collapsing the following nested lists:
-['Barcode count CSVs', 'Interactive plots of average mutation functional effects', 'Interactive plots of average mutation functional effects from single-mutant variants only', 'Interactive plots of differences in functional effects between conditions', 'Notebooks with per-selection global epistasis fitting', 'Notebooks averaging mutation functional effects', 'Notebooks taking differences in functional effects between conditions', 'Per-variant functional score CSVs', 'Per-selection mutation functional effect CSVs', 'Average mutation functional effects (CSV files)', 'Average mutation functional effects from single-mutant variants only (CSV files)', 'Average mutation latent-phenotype effects (CSV files)', 'Differences in functional effects (CSV files)']
+['Barcode count CSVs', 'Interactive plots of average mutation functional effects', 'Interactive plots of average mutation functional effects from single-mutant variants only', 'Interactive plots of differences in functional effects between conditions', 'Notebooks with per-selection global epistasis fitting', 'Notebooks averaging mutation functional effects', 'Notebooks taking differences in functional effects between conditions', 'Per-variant functional score CSVs', 'Per-selection mutation functional effect CSVs', 'Average mutation functional effects (CSV files)', 'Average mutation functional effects from single-mutant variants only (CSV files)', 'Average mutation latent-phenotype effects (CSV files)', 'Differences in functional effects (CSV files)', 'MHCII binding mutation effect plots', 'Fits of polyclonal models to individual MHCII binding selections', 'Average selections for MHCII binding', 'Probability (fraction) escape for each variant in each MHCII binding selection (CSVs)', 'MHCII binding CSVs']
 
 Successfully built documentation in results/docs
