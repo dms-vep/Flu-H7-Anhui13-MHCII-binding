@@ -1,2 +1,0 @@
-[NbConvertApp] Converting notebook results/notebooks/analyze_func_scores.ipynb to html
-[NbConvertApp] Writing 756924 bytes to results/notebooks/analyze_func_scores.html

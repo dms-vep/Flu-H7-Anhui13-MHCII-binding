@@ -1,2 +1,0 @@
-[NbConvertApp] Converting notebook results/notebooks/avg_func_effects_293_noSA_duck_MHCII_entry.ipynb to html
-[NbConvertApp] Writing 13856412 bytes to results/notebooks/avg_func_effects_293_noSA_duck_MHCII_entry.html

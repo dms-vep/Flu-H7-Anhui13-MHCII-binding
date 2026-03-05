@@ -1,2 +1,0 @@
-[NbConvertApp] Converting notebook results/notebooks/compare_cell_entry.ipynb to html
-[NbConvertApp] Writing 3516837 bytes to results/notebooks/compare_cell_entry.html

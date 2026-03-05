@@ -1,2 +1,0 @@
-[NbConvertApp] Converting notebook results/notebooks/func_effect_diffs_293T_vs_293_noSA_duck_MHCII_entry.ipynb to html
-[NbConvertApp] Writing 8531607 bytes to results/notebooks/func_effect_diffs_293T_vs_293_noSA_duck_MHCII_entry.html

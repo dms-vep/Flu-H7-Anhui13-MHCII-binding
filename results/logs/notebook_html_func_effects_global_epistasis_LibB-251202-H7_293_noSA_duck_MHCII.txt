@@ -1,3 +1,0 @@
-[NbConvertApp] Converting notebook results/notebooks/func_effects_global_epistasis_LibB-251202-H7_293_noSA_duck_MHCII.ipynb to html
-[NbConvertApp] WARNING | Alternative text is missing on 2 image(s).
-[NbConvertApp] Writing 1487550 bytes to results/notebooks/func_effects_global_epistasis_LibB-251202-H7_293_noSA_duck_MHCII.html
