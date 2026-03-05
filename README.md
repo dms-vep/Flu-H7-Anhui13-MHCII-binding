@@ -1,7 +1,7 @@
-# H7 (A/Anhui/1/013) HA MHCII binding measurements using pseudovirus deep mutational scanning libraries
+# H7 (A/Anhui/1/2013) HA MHCII binding measurements using pseudovirus deep mutational scanning libraries
 Study by Bernadeta Dadonaite and Jesse Bloom.
 
-Experiments in the repository relate to MHCII binding measurements done using A/Anhui/1/013 (H7N9) pseudovirus deep mutational scanning libraries.
+Experiments in the repository relate to MHCII binding measurements done using A/Anhui/1/2013 (H7N9) pseudovirus deep mutational scanning libraries.
 
 ## Organization of this repo
 
@@ -48,4 +48,4 @@ To run the pipeline, build the conda environment `dms-vep-pipeline-3` in the `en
 
 To run on the Hutch cluster via [slurm](https://slurm.schedmd.com/), you can run the file [run_Hutch_cluster.bash](run_Hutch_cluster.bash):
 
-    sbatch -c 32 run_Hutch_cluster.bash
+    sbatch run_Hutch_cluster.bash
