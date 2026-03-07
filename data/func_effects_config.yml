@@ -89,7 +89,7 @@ avg_func_effects_default: &avg_func_effects_default
     alphabet: [R,K,H,D,E,Q,N,S,T,Y,W,F,A,I,L,M,V,G,P,C,"'*'"]
     addtl_slider_stats:
       times_seen: 2
-      effect_std: 2
+      effect_std: 1.6
     addtl_slider_stats_as_max: [effect_std]
     heatmap_max_at_least: 2.5
     heatmap_min_fixed: -5
@@ -112,7 +112,7 @@ avg_func_effects:
     selections:
       - LibA-251202-H7_293T
       - LibB-251202-H7_293T
-  293_noSA_duck_MHCII_entry:
+  293_noSA_tufted_duck_MHCII_entry:
     <<: *avg_func_effects_default
     selections:
       - LibA-251202-H7_293_noSA_duck_MHCII
@@ -133,34 +133,34 @@ avg_func_effects:
 #  - `per_selection_tooltips`: whether to show per-selection tooltips
 #  - `plot_kwargs`: keyword arguments passed to `polyclonal.plot.lineplot_and_heatmap`
 func_effect_diffs:
-  293T_vs_293_noSA_duck_MHCII_entry:
+  tufted-duck-MHCII_vs_293T_entry:
     condition_1:
+      name: tufted-duck-MHCII entry
+      selections:
+        - LibA-251202-H7_293_noSA_duck_MHCII
+        - LibB-251202-H7_293_noSA_duck_MHCII
+    condition_2:
       name: 293T entry
       selections:
         - LibA-251202-H7_293T
         - LibB-251202-H7_293T
-    condition_2:
-      name: 293_noSA_duck_MHCII entry
-      selections:
-        - LibA-251202-H7_293_noSA_duck_MHCII
-        - LibB-251202-H7_293_noSA_duck_MHCII
     avg_method: median
     per_selection_tooltips: true
     plot_kwargs:
       alphabet: [R,K,H,D,E,Q,N,S,T,Y,W,F,A,I,L,M,V,G,P,C]
       addtl_slider_stats:
         times_seen: 2
-        difference_std: 2  # standard deviation difference across pairwise comparisons for mutation
+        difference_std: 3  # standard deviation difference across pairwise comparisons for mutation
         fraction_pairs_w_mutation: 1  # fraction of all pairs between conditions w mutation
         best_effect: -2  # effect must be >= for at least one condition
         293T entry effect: -8  # slider on effect in this condition, but no initial value
-        293_noSA_duck_MHCII entry effect: -8  # slider on effect in this condition, but no initial value
+        tufted-duck-MHCII entry effect: -8  # slider on effect in this condition, but no initial value
         nt changes to codon: 3
-      addtl_slider_stats_hide_not_filter: [best_effect, 293T entry effect, 293_noSA_duck_MHCII entry effect, nt changes to codon]
+      addtl_slider_stats_hide_not_filter: [best_effect, 293T entry effect, tufted-duck-MHCII entry effect, nt changes to codon]
       addtl_slider_stats_as_max: [difference_std, nt changes to codon]
       heatmap_max_at_least: 1
       heatmap_min_at_least: -1
-      init_floor_at_zero: true
+      init_floor_at_zero: false
       init_site_statistic: sum
       site_zoom_bar_color_col: region  # supplied in `site_numbering_map`
       slider_binding_range_kwargs:
