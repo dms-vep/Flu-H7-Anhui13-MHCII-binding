@@ -28,3 +28,37 @@ entry_all_cells:
     entry in tufted duck MHCII cells:
       <<: *cell_entry_default
       csv: results/func_effects/averages/293_noSA_tufted_duck_MHCII_entry_func_effects.csv
+
+# tufted duck MHCII binding overlaid with cell entry
+tufted_duck_MHCII_binding:
+  <<: *summary_default
+  antibody_escape:  # show effects on antibody escape, empty dict if no antibodies being shown
+    tufted duck MHCII binding:  # name each set of antibodies
+      stat: MHCII binding_median  # statistic to use for escape
+      positive_color: "#009392"  # light blue, positive heatmap color
+      negative_color: "#d0587e"  # orange, negative heatmap color
+      max_at_least: 2  # make heatmap max at least
+      min_at_least: -2  # make heatmap min at least this
+      antibody_list:  # antibodies to include: keys name used for `avg_escape`, values name for plot
+        tufted-duck-MHCII: results/MHCII_binding/averages/tufted_duck_MHCII_binding_mut_effect.csv
+      le_filters:
+        MHCII binding_std: 2.1
+  other_phenotypes:
+    entry in tufted duck MHCII cells:
+      <<: *cell_entry_default
+      csv: results/func_effects/averages/293_noSA_tufted_duck_MHCII_entry_func_effects.csv
+      init_min_value: -5  # initial min value in slider
+    entry in 293T cells:
+      <<: *cell_entry_default
+      csv: results/func_effects/averages/293T_entry_func_effects.csv
+      init_min_value: -5  # initial min value in slider
+    entry difference between noSA tufted duck MHCII and 293T cells:
+      csv: results/func_effect_diffs/tufted-duck-MHCII_vs_293T_entry_diffs.csv
+      stat: difference  # column to plot
+      positive_color: "#009E73"  # green
+      negative_color: "#F0E442"  # yellow
+      max_at_least: 2
+      min_at_least: -3
+      init_min_value: -5  # initial min value in slider
+      le_filters:
+        difference_std: 3
