@@ -1,6 +1,6 @@
 H7_Anhui13_293T:
   data_csv: results/summaries/entry_all_cells.csv
-  title: "Effect of mutations to H7 influenza HA on entry into mostly a2-3 sialic acids expressing 293T cells"
+  title: "Effect of mutations to H7 influenza HA on entry into 293T cells"
   effect_col: "entry in 293T cells"
   data_query_str: ""
   sites_per_row: 103
@@ -13,10 +13,10 @@ H7_Anhui13_293T:
   dark_gray_muts: null   # specify col and cutoff to show some mutations in dark gray.
 
 
-H7_Anhui13_293_noSA_duck_MHCII:
+H7_Anhui13_tufted_duck_MHCII:
   data_csv: results/summaries/entry_all_cells.csv
-  title: "Effect of mutations to H7 influenza HA on entry into cells without sialic acid expressing MHCII from a tufted duck"
-  effect_col: "entry in 293_noSA_duck_MHCII cells"
+  title: "Effect of mutations to H7 influenza HA on entry into 293 cells expressing tufted duck MHCII and no sialic acid"
+  effect_col: "entry in tufted duck MHCII cells"
   data_query_str: ""
   sites_per_row: 103
   site_label_freq: 5

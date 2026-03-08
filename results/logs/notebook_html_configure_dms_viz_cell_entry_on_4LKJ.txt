@@ -1,2 +1,0 @@
-[NbConvertApp] Converting notebook results/notebooks/configure_dms_viz_cell_entry_on_4LKJ.ipynb to html
-[NbConvertApp] Writing 351979 bytes to results/notebooks/configure_dms_viz_cell_entry_on_4LKJ.html

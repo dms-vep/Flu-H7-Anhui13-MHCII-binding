@@ -204,8 +204,6 @@ MHCII_binding_selections:
 #   - `icXX`: for the plot showing fold-change in ICXX (eg, IC90), what is XX (eg, 90)
 #   - `escape_plot_kwargs`: keyword arguments for `PolyclonalAverage.mut_escape_plot`
 #   - `plot_hide_stats`: dict giving data frames with stats for slider to hide mutations
-#   - `title`: title of plots
-#   - `legend`: legend added to plots
 
 # For soluble receptor experiments used to measure receptor affinity, do exactly the same
 # except under the key `avg_receptor_affinity` rather than `avg_antibody_escape`.
@@ -222,14 +220,6 @@ avg_antibody_escape_default: &avg_antibody_escape_default
     addtl_slider_stats_as_max: [escape_std]
     per_model_tooltip: true
   plot_hide_stats: *plot_hide_stats_default
-  legend: |
-    Use the site zoom bar at the top to zoom in on specific sites. The line plot shows a summary statistic indicating of the mutation effects at each site. The heat map shows effects for individual mutations, with parental amino-acid identities indicated by x and gray indicating non-measured mutations. Mouse over points for details.
-
-    Options at the bottom of the plot let you modify the display, such as by selecting how many different variants a mutation must be seen in to be shown (*minimum times_seen*), how many different experimental selections the mutation was measured in (*minimum n_models*), what site summary statistic to show, etc.
-
-    You can filter by the functional effects of mutations. Mutations removed by this filter are shown as dark gray squares in the heat map to distinguish unmeasured mutations from ones measured to be deleterious.
-
-    The *minimum max* slider is useful to select the sites where mutations have the largest effect.
 
 # Define the antibodies/sera to average
 avg_antibody_escape:
@@ -242,15 +232,14 @@ avg_MHCII_binding_default: &avg_MHCII_binding_default
     avg_type: median
     addtl_slider_stats:
       times_seen: 2
-      escape_std: 2
+      escape_std: 2.1
     addtl_slider_stats_as_max: [escape_std]
     per_model_tooltip: true
   icXX: 50  # IC50
 
 avg_MHCII_binding:
-  duck_MHCII_binding:
+  tufted_duck_MHCII_binding:
     <<: *avg_MHCII_binding_default
-    title: binding to tufted duck MHCII gag VLPs
     plot_hide_stats: *MHCII_binding_plot_hide_stats_default
     selections:
       - A-251218-duck_MHCII

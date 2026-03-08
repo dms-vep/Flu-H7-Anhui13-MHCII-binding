@@ -25,7 +25,7 @@ cell_entry_on_4LKJ:
   # in `opt_params`. In that case, list the columns to melt. Otherwise set to 'null'.
   melt_condition_metric_cols:
     - entry in 293T cells
-    - entry in 293_noSA_duck_MHCII cells
+    - entry in tufted duck MHCII cells
   metric: cell entry  # metric to plot, in `data_csv` or created by `melt_conditions_metric_cols`
   # optional params, have same meaning as to `configure-dms-viz`:
   # https://dms-viz.github.io/dms-viz-docs/preparing-data/command-line-api/
@@ -45,7 +45,7 @@ cell_entry_diffs_on_4LKJ:
   data_csv: results/compare_cell_entry/mut_diffs.csv
   sitemap_csv: data/pdb_inputs_for_dms_viz/4LKJ_sitemap.csv
   melt_condition_metric_cols:
-    - 293T minus 293_noSA_duck_MHCII
+    - 293T minus tufted duck MHCII
   metric: entry_difference
   opt_params:
     condition: comparison
@@ -53,5 +53,5 @@ cell_entry_diffs_on_4LKJ:
     alphabet: RKHDEQNSTYWFAILMVGPC
     floor: False
     summary-stat: sum
-    tooltip-cols: {sequential_site: sequential site, region: region, 293T: 293T entry, 293_noSA_duck_MHCII: 293_noSA_duck_MHCII entry}
+    tooltip-cols: {sequential_site: sequential site, region: region, 293T: 293T entry, tufted duck MHCII: tufted duck MHCII entry}
     heatmap-limits: "-4, 0, 4"

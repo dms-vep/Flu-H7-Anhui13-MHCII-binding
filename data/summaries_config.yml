@@ -1,39 +1,64 @@
 # Configuration for creating summary plots across assays.
 
-# --------------------------------------------------------------------------------------
-# Define how to create an integrated set of line plots and heat maps that summarizes
-# antibody escape alongside other assays (eg, functional effects of mutations).
-# --------------------------------------------------------------------------------------
+# define defaults shared across summaries
+summary_default: &summary_default
+  min_times_seen: 2  # only include mutations with times_seen >= this
+  min_frac_models: 0.75  # only include mutations in >= this fraction of models (selections)
+  alphabet: [A, C, D, E, F, G, H, I, K, L, M, N, P, Q, R, S, T, V, W, Y]  # amino acids to include
+  init_floor_escape_at_zero: false  # initially floor site escape to be >= 0?
+  init_site_escape_stat: sum  # initially show site escape as this statistic
 
 cell_entry_default: &cell_entry_default
   stat: effect  # column to plot
   color_scheme: redblue
-  max_at_least: 2.5
+  max_at_least: 2
   fixed_min: -5
   init_min_value: null
   le_filters:
-    effect_std: 2  # remove if std less than this
+    effect_std: 1.6  # remove if std less than this
 
+# Entry in different cells
 entry_all_cells:
-  min_times_seen: 2  # only include mutations with times_seen >= this
-  min_frac_models: 0.75  # only include mutations in >= this fraction of models
-  alphabet: [A, C, D, E, F, G, H, I, K, L, M, N, P, Q, R, S, T, V, W, Y]  # amino acids to include
-  init_floor_escape_at_zero: true  # initially floor site escape to be >= 0?
-  init_site_escape_stat: sum  # initially show site escape as this statistic
-  antibody_escape: {}  # show effects on antibody escape, empty dict if no antibodies being shown
+  <<: *summary_default
+  antibody_escape: {}
   other_phenotypes:
     entry in 293T cells:
       <<: *cell_entry_default
-      csv: results/func_effects/averages/293T_entry_func_effects.csv  # CSV w data
-    entry in 293_noSA_duck_MHCII cells:
+      csv: results/func_effects/averages/293T_entry_func_effects.csv
+    entry in tufted duck MHCII cells:
       <<: *cell_entry_default
-      csv: results/func_effects/averages/293_noSA_duck_MHCII_entry_func_effects.csv
-  mutation_annotation_sliders:
-    nt changes to codon:
-      init_value: 3
-      max_or_min: max
-      slider_binding_range_kwargs:
-        min: 1
-        max: 3
-        step: 1
+      csv: results/func_effects/averages/293_noSA_tufted_duck_MHCII_entry_func_effects.csv
 
+# tufted duck MHCII binding overlaid with cell entry
+tufted_duck_MHCII_binding:
+  <<: *summary_default
+  antibody_escape:  # show effects on antibody escape, empty dict if no antibodies being shown
+    tufted duck MHCII binding:  # name each set of antibodies
+      stat: MHCII binding_median  # statistic to use for escape
+      positive_color: "#009392"  # light blue, positive heatmap color
+      negative_color: "#d0587e"  # orange, negative heatmap color
+      max_at_least: 2  # make heatmap max at least
+      min_at_least: -2  # make heatmap min at least this
+      antibody_list:  # antibodies to include: keys name used for `avg_escape`, values name for plot
+        tufted-duck-MHCII: results/MHCII_binding/averages/tufted_duck_MHCII_binding_mut_effect.csv
+      le_filters:
+        MHCII binding_std: 2.1
+  other_phenotypes:
+    entry in tufted duck MHCII cells:
+      <<: *cell_entry_default
+      csv: results/func_effects/averages/293_noSA_tufted_duck_MHCII_entry_func_effects.csv
+      init_min_value: -5  # initial min value in slider
+    entry in 293T cells:
+      <<: *cell_entry_default
+      csv: results/func_effects/averages/293T_entry_func_effects.csv
+      init_min_value: -5  # initial min value in slider
+    entry difference between noSA tufted duck MHCII and 293T cells:
+      csv: results/func_effect_diffs/tufted-duck-MHCII_vs_293T_entry_diffs.csv
+      stat: difference  # column to plot
+      positive_color: "#009E73"  # green
+      negative_color: "#F0E442"  # yellow
+      max_at_least: 2
+      min_at_least: -3
+      init_min_value: -5  # initial min value in slider
+      le_filters:
+        difference_std: 3

@@ -1,2 +1,0 @@
-[NbConvertApp] Converting notebook results/notebooks/avg_func_effects_293T_entry.ipynb to html
-[NbConvertApp] Writing 12126067 bytes to results/notebooks/avg_func_effects_293T_entry.html
