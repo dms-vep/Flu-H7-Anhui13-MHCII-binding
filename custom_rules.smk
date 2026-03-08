@@ -43,7 +43,7 @@ compare_entry_floor_mut_effects = -3  # before taking difference in cell entry, 
 # cells to compare
 cells_to_compare = [
     "293T",
-    "293_noSA_duck_MHCII",
+    "tufted duck MHCII",
 ]
 
 rule cell_entry_mut_diffs:
