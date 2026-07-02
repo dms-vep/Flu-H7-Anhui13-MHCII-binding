@@ -182,10 +182,10 @@ MHCII_binding_selections:
         use_in_fit: true
       B-251218-duck_MHCII_09:
         concentration: 0.9
-        use_in_fit: false
+        use_in_fit: true
       B-251218-duck_MHCII_04:
         concentration: 0.45
-        use_in_fit: true
+        use_in_fit: false
       B-251218-duck_MHCII_02:
         concentration: 0.225
         use_in_fit: true
@@ -193,6 +193,59 @@ MHCII_binding_selections:
         concentration: 0.15
         use_in_fit: false
 
+
+  A-260107-duck_MHCII:
+    neut_standard_name: neut_standard
+    prob_escape_filters: *prob_escape_filters_default
+    polyclonal_params: *MHCII_binding_polyclonal_params_default
+    escape_plot_kwargs: *escape_plot_kwargs_default
+    plot_hide_stats: *MHCII_binding_plot_hide_stats_default
+    no_antibody_sample: A-260107-duck_MHCII-no-antibody_control
+    antibody_samples:
+      A-260107-duck_MHCII_24:
+        concentration: 8
+        use_in_fit: true
+      A-260107-duck_MHCII_8:
+        concentration: 2.7
+        use_in_fit: true
+      A-260107-duck_MHCII_09:
+        concentration: 0.9
+        use_in_fit: false
+      A-260107-duck_MHCII_04:
+        concentration: 0.3
+        use_in_fit: true
+      A-260107-duck_MHCII_02:
+        concentration: 0.1
+        use_in_fit: true
+      A-260107-duck_MHCII_015:
+        concentration: 0.03
+        use_in_fit: false
+  B-260107-duck_MHCII:
+    neut_standard_name: neut_standard
+    prob_escape_filters: *prob_escape_filters_default
+    polyclonal_params: *MHCII_binding_polyclonal_params_default
+    escape_plot_kwargs: *escape_plot_kwargs_default
+    plot_hide_stats: *MHCII_binding_plot_hide_stats_default
+    no_antibody_sample: B-260107-duck_MHCII-no-antibody_control
+    antibody_samples:
+      B-260107-duck_MHCII_24:
+        concentration: 8
+        use_in_fit: true
+      B-260107-duck_MHCII_8:
+        concentration: 2.7
+        use_in_fit: true
+      B-260107-duck_MHCII_09:
+        concentration: 0.9
+        use_in_fit: true
+      B-260107-duck_MHCII_04:
+        concentration: 0.3
+        use_in_fit: false
+      B-260107-duck_MHCII_02:
+        concentration: 0.1
+        use_in_fit: false
+      B-260107-duck_MHCII_015:
+        concentration: 0.03
+        use_in_fit: true
 
 # --------------------------------------------------------------------------------------
 # Configuration for averaging/plotting selections for same antibody or soluble receptor
@@ -253,5 +306,7 @@ avg_MHCII_binding:
     title: binding to tufted duck MHCII gag VLPs
     plot_hide_stats: *MHCII_binding_plot_hide_stats_default
     selections:
+      - A-260107-duck_MHCII
+      - B-260107-duck_MHCII
       - A-251218-duck_MHCII
       - B-251218-duck_MHCII

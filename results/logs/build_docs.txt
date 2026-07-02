@@ -3,7 +3,7 @@ Removed existing results/docs
 Created docs directory: results/docs
 Created subdirectories: notebooks/ and htmls/
 
-Copying 27 HTML files to docs directory:
+Copying 32 HTML files to docs directory:
   results/notebooks/analyze_variant_counts.html -> results/docs/notebooks/analyze_variant_counts.html
   results/func_effects/averages/293T_entry_func_effects.html -> results/docs/htmls/293T_entry_func_effects.html
   results/func_effects/averages/293_noSA_duck_MHCII_entry_func_effects.html -> results/docs/htmls/293_noSA_duck_MHCII_entry_func_effects.html
@@ -22,10 +22,15 @@ Copying 27 HTML files to docs directory:
   results/MHCII_binding/averages/duck_MHCII_binding_mut_effect.html -> results/docs/htmls/duck_MHCII_binding_mut_effect.html
   results/notebooks/fit_escape_MHCII_binding_A-251218-duck_MHCII.html -> results/docs/notebooks/fit_escape_MHCII_binding_A-251218-duck_MHCII.html
   results/notebooks/fit_escape_MHCII_binding_B-251218-duck_MHCII.html -> results/docs/notebooks/fit_escape_MHCII_binding_B-251218-duck_MHCII.html
+  results/notebooks/fit_escape_MHCII_binding_A-260107-duck_MHCII.html -> results/docs/notebooks/fit_escape_MHCII_binding_A-260107-duck_MHCII.html
+  results/notebooks/fit_escape_MHCII_binding_B-260107-duck_MHCII.html -> results/docs/notebooks/fit_escape_MHCII_binding_B-260107-duck_MHCII.html
   results/notebooks/avg_escape_MHCII_binding_duck_MHCII_binding.html -> results/docs/notebooks/avg_escape_MHCII_binding_duck_MHCII_binding.html
   results/summaries/entry_all_cells_overlaid.html -> results/docs/htmls/entry_all_cells_overlaid.html
-  results/wrapped_heatmaps/H7_Anhui13_293T.html -> results/docs/htmls/H7_Anhui13_293T.html
-  results/wrapped_heatmaps/H7_Anhui13_293_noSA_duck_MHCII.html -> results/docs/htmls/H7_Anhui13_293_noSA_duck_MHCII.html
+  results/summaries/tufted_duck_MHCII_binding_overlaid.html -> results/docs/htmls/tufted_duck_MHCII_binding_overlaid.html
+  results/summaries/tufted_duck_MHCII_binding_faceted.html -> results/docs/htmls/tufted_duck_MHCII_binding_faceted.html
+  results/wrapped_heatmaps/entry_in_noSA_tufted_duck_MHCII.html -> results/docs/htmls/entry_in_noSA_tufted_duck_MHCII.html
+  results/wrapped_heatmaps/tufted-duck_MHCII-binding.html -> results/docs/htmls/tufted-duck_MHCII-binding.html
+  results/wrapped_heatmaps/tufted-duck_MHCII-SA2326_entry_difference.html -> results/docs/htmls/tufted-duck_MHCII-SA2326_entry_difference.html
   results/compare_cell_entry/compare_cell_entry_scatter.html -> results/docs/htmls/compare_cell_entry_scatter.html
   results/compare_cell_entry/compare_cell_entry_site_zoom.html -> results/docs/htmls/compare_cell_entry_site_zoom.html
   results/notebooks/compare_cell_entry.html -> results/docs/notebooks/compare_cell_entry.html
@@ -40,7 +45,7 @@ Analysis by Bernadeta Dadonaite and Jesse Bloom (2025)
 
 See [https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding) for full code.
 
-Documentation of results rendered as of Fri Dec 19 12:27:08 2025
+Documentation of results rendered as of Thu Jun 11 09:58:51 2026
 
 [TOC]
 
@@ -74,6 +79,20 @@ Documentation of results rendered as of Fri Dec 19 12:27:08 2025
     - [B-251218-duck_MHCII_02](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/B-251218-duck_MHCII_02_counts.csv)
     - [B-251218-duck_MHCII_015](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/B-251218-duck_MHCII_015_counts.csv)
     - [B-251218-duck_MHCII-no-antibody_control](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/B-251218-duck_MHCII-no-antibody_control_counts.csv)
+    - [A-260107-duck_MHCII_24](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/A-260107-duck_MHCII_24_counts.csv)
+    - [A-260107-duck_MHCII_8](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/A-260107-duck_MHCII_8_counts.csv)
+    - [A-260107-duck_MHCII_09](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/A-260107-duck_MHCII_09_counts.csv)
+    - [A-260107-duck_MHCII_04](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/A-260107-duck_MHCII_04_counts.csv)
+    - [A-260107-duck_MHCII_02](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/A-260107-duck_MHCII_02_counts.csv)
+    - [A-260107-duck_MHCII_015](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/A-260107-duck_MHCII_015_counts.csv)
+    - [A-260107-duck_MHCII-no-antibody_control](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/A-260107-duck_MHCII-no-antibody_control_counts.csv)
+    - [B-260107-duck_MHCII_24](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/B-260107-duck_MHCII_24_counts.csv)
+    - [B-260107-duck_MHCII_8](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/B-260107-duck_MHCII_8_counts.csv)
+    - [B-260107-duck_MHCII_09](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/B-260107-duck_MHCII_09_counts.csv)
+    - [B-260107-duck_MHCII_04](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/B-260107-duck_MHCII_04_counts.csv)
+    - [B-260107-duck_MHCII_02](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/B-260107-duck_MHCII_02_counts.csv)
+    - [B-260107-duck_MHCII_015](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/B-260107-duck_MHCII_015_counts.csv)
+    - [B-260107-duck_MHCII-no-antibody_control](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/barcode_counts/B-260107-duck_MHCII-no-antibody_control_counts.csv)
 ## Functional effects of mutations
 #### Final summary plots
   - Interactive plots of average mutation functional effects
@@ -127,6 +146,8 @@ Documentation of results rendered as of Fri Dec 19 12:27:08 2025
   - Fits of polyclonal models to individual MHCII binding selections
     - [A-251218-duck_MHCII](notebooks/fit_escape_MHCII_binding_A-251218-duck_MHCII.html)
     - [B-251218-duck_MHCII](notebooks/fit_escape_MHCII_binding_B-251218-duck_MHCII.html)
+    - [A-260107-duck_MHCII](notebooks/fit_escape_MHCII_binding_A-260107-duck_MHCII.html)
+    - [B-260107-duck_MHCII](notebooks/fit_escape_MHCII_binding_B-260107-duck_MHCII.html)
   - Average selections for MHCII binding
     - [duck_MHCII_binding](notebooks/avg_escape_MHCII_binding_duck_MHCII_binding.html)
 #### Data files
@@ -143,16 +164,34 @@ Documentation of results rendered as of Fri Dec 19 12:27:08 2025
     - [B-251218-duck_MHCII B-251218-duck_MHCII_04](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/B-251218-duck_MHCII/B-251218-duck_MHCII_04_prob_escape.csv)
     - [B-251218-duck_MHCII B-251218-duck_MHCII_02](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/B-251218-duck_MHCII/B-251218-duck_MHCII_02_prob_escape.csv)
     - [B-251218-duck_MHCII B-251218-duck_MHCII_015](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/B-251218-duck_MHCII/B-251218-duck_MHCII_015_prob_escape.csv)
+    - [A-260107-duck_MHCII A-260107-duck_MHCII_24](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/A-260107-duck_MHCII/A-260107-duck_MHCII_24_prob_escape.csv)
+    - [A-260107-duck_MHCII A-260107-duck_MHCII_8](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/A-260107-duck_MHCII/A-260107-duck_MHCII_8_prob_escape.csv)
+    - [A-260107-duck_MHCII A-260107-duck_MHCII_09](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/A-260107-duck_MHCII/A-260107-duck_MHCII_09_prob_escape.csv)
+    - [A-260107-duck_MHCII A-260107-duck_MHCII_04](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/A-260107-duck_MHCII/A-260107-duck_MHCII_04_prob_escape.csv)
+    - [A-260107-duck_MHCII A-260107-duck_MHCII_02](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/A-260107-duck_MHCII/A-260107-duck_MHCII_02_prob_escape.csv)
+    - [A-260107-duck_MHCII A-260107-duck_MHCII_015](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/A-260107-duck_MHCII/A-260107-duck_MHCII_015_prob_escape.csv)
+    - [B-260107-duck_MHCII B-260107-duck_MHCII_24](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/B-260107-duck_MHCII/B-260107-duck_MHCII_24_prob_escape.csv)
+    - [B-260107-duck_MHCII B-260107-duck_MHCII_8](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/B-260107-duck_MHCII/B-260107-duck_MHCII_8_prob_escape.csv)
+    - [B-260107-duck_MHCII B-260107-duck_MHCII_09](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/B-260107-duck_MHCII/B-260107-duck_MHCII_09_prob_escape.csv)
+    - [B-260107-duck_MHCII B-260107-duck_MHCII_04](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/B-260107-duck_MHCII/B-260107-duck_MHCII_04_prob_escape.csv)
+    - [B-260107-duck_MHCII B-260107-duck_MHCII_02](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/B-260107-duck_MHCII/B-260107-duck_MHCII_02_prob_escape.csv)
+    - [B-260107-duck_MHCII B-260107-duck_MHCII_015](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/by_selection/B-260107-duck_MHCII/B-260107-duck_MHCII_015_prob_escape.csv)
   - MHCII binding CSVs
     - [duck_MHCII_binding](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/MHCII_binding/averages/duck_MHCII_binding_mut_effect.csv)
 ## Integrated summary plots
 #### entry all cells
   - [Summary plot](htmls/entry_all_cells_overlaid.html)
   - [CSV summarizing results](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/summaries/entry_all_cells.csv)
+#### tufted duck MHCII binding
+  - [Summary plot (escape overlaid)](htmls/tufted_duck_MHCII_binding_overlaid.html)
+  - [Summary plot (escape faceted)](htmls/tufted_duck_MHCII_binding_faceted.html)
+  - [CSV summarizing results](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/summaries/tufted_duck_MHCII_binding.csv)
+  - [CSV summarizing per-antibody results](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/summaries/tufted_duck_MHCII_binding_per_antibody_escape.csv)
 ## Wrapped heatmaps
 #### Heatmap HTMLs
-  - [H7_Anhui13_293T](htmls/H7_Anhui13_293T.html)
-  - [H7_Anhui13_293_noSA_duck_MHCII](htmls/H7_Anhui13_293_noSA_duck_MHCII.html)
+  - [entry_in_noSA_tufted_duck_MHCII](htmls/entry_in_noSA_tufted_duck_MHCII.html)
+  - [tufted-duck_MHCII-binding](htmls/tufted-duck_MHCII-binding.html)
+  - [tufted-duck_MHCII-SA2326_entry_difference](htmls/tufted-duck_MHCII-SA2326_entry_difference.html)
 ## Compare entry among cells
 #### Final plots
   - [Scatter plots of mutation effects in different cells](htmls/compare_cell_entry_scatter.html)
