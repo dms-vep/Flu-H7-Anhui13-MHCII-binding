@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: Effects of mutations to an H7 HA on its interaction with tufted duck MHC-II
-  tagline: Pseudovirus deep mutational scanning of how mutations to HA from A/Anhui/1/2013 (H7N9) affects its interaction with tufted duck MHC-II
+  name: "Effects of mutations to an H7 HA on its interaction with tufted duck MHC-II"
+  tagline: "Pseudovirus deep mutational scanning of how mutations to HA from A/Anhui/1/2013 (H7N9) affects its interaction with tufted duck MHC-II"
   image: logo_H7.png
 features:
   - title: Entry in MHC-II vs sialic-acid expressing cells
