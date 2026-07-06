@@ -2,7 +2,7 @@
 aside: false
 ---
 
-# Effects of H& HA mutations on binding to tufted duck MHC-II VLPs
+# Effects of H7 HA mutations on binding to tufted duck MHC-II VLPs
 
 This page shows how mutations to H7 HA affect binding to tufted duck MHC-II virus-like particles (VLPs), as assessed by the ability of these VLPs to neutralize pseudovirus infectivity.
 Note that because the MHC-II VLPs may also contain other cell membrane proteins, some of the HA mutations may also affect binding to this proteins as well as MHC-II.

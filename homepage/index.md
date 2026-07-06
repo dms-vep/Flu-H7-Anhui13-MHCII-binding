@@ -12,6 +12,9 @@ features:
   - title: Binding to MHC-II
     details: Effects of H7 HA mutations on binding to tufted duck MHC-II VLPs
     link: /binding
+  - title: Effects of H5 HA mutations on MHC-II interaction
+    details: Deep mutational scanning of how a H5 HA interacts with tufted duck MHC-II
+    link: https://dms-vep.org/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/
   - title: HA sequence numbering
     details: Explanation of the HA sequence numbering scheme used here
     link: /numbering
@@ -26,6 +29,7 @@ For details about the study, see [Dadonaite et al. (2026)]() [**ADD CITATION**].
 Visualizations and data can be accessed by clicking the gray boxes above for each type of measurement, namely:
  - [Effects of H7 HA mutations on entry in cells expressing tufted duck MHC-II or sialic acid](entry)
  - [Effects of H7 HA mutations on binding to tufted duck MHC-II](binding)
+ - [Effects of mutations to a H5 HA on interaction with MHC-II](https://dms-vep.org/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/)
  - [Explanation of the H3 HA numbering scheme used in plots shown here](numbering)
 
 For numerical values of the effects of H7 HA mutations (H3 numbering) on interaction with MHC-II, see [this CSV](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master/results/summaries/tufted_duck_MHCII_binding.csv).

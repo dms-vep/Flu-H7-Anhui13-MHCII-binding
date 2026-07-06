@@ -1,7 +1,12 @@
-# H7 (A/Anhui/1/2013) HA MHCII binding measurements using pseudovirus deep mutational scanning libraries
-Study by Bernadeta Dadonaite and Jesse Bloom.
+# Pseudovirus deep mutatioinal scanning of HA from A/Anhui/1/2013 (H7N9) for entry and binding to tufted duck MHC-II
 
-Experiments in the repository relate to MHCII binding measurements done using A/Anhui/1/2013 (H7N9) pseudovirus deep mutational scanning libraries.
+**ADD CITATION WHEN AVAILABLE**
+
+This repository has the code and data. Specifically:
+
+ - For interactive plots visualizing key results, see [https://dms-vep.org/Flu-H7-Anhui13-MHCII-binding/](https://dms-vep.org/Flu-H7-Anhui13-MHCII-binding/)
+ - For a single CSV with the QC-ed measurements, see [results/summaries/tufted_duck_MHCII_binding.csv](results/summaries/tufted_duck_MHCII_binding.csv)
+ - For all numerical results, see [./results/](results)
 
 ## Organization of this repo
 
@@ -19,6 +24,12 @@ Note that if you want a specific commit or tag of [dms-vep-pipeline-3](https://g
 
 and then `cd ../` back to the top-level directory, and add and commit the updated `dms-vep-pipeline-3` submodule.
 You can also make changes to the [dms-vep-pipeline-3](https://github.com/dms-vep/dms-vep-pipeline-3) that you commit back to that repo.
+
+### Additional custom rules
+Additional custom rules outside the standard pipeline are defined in [custom_rules.smk](custom_rules.smk).
+
+### Additional analyses
+[./analysis_notebooks/](analysis_notebooks) contain notebooks that are run manually outside the main pipeline.
 
 ### Code and configuration
 The [snakemake](https://snakemake.readthedocs.io/) pipeline itself is run by `dms-vep-pipeline-3/Snakefile` which reads its configuration from [config.yaml](config.yaml).
@@ -38,7 +49,6 @@ To visualize these docs via GitHub Pages, run:
     dms-vep-pipeline-3/publish_docs_gh-pages.sh
 
 This pushes the docs to the *gh-pages* branch, we can be viewed on GitHub Pages at [https://dms-vep.org/Flu-H7-Anhui13-MHCII-binding/](https://dms-vep.org/Flu-H7-Anhui13-MHCII-binding/).
-
 
 ## Running the pipeline
 To run the pipeline, build the conda environment `dms-vep-pipeline-3` in the `environment.yml` file of [dms-vep-pipeline-3](https://github.com/dms-vep/dms-vep-pipeline-3), activate it, and run [snakemake](https://snakemake.readthedocs.io/), such as:
