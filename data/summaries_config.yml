@@ -44,15 +44,15 @@ tufted_duck_MHCII_binding:
       le_filters:
         MHCII binding_std: 2.1
   other_phenotypes:
-    entry in tufted duck MHCII cells:
+    entry tufted duck MHCII cells:
       <<: *cell_entry_default
       csv: results/func_effects/averages/293_noSA_tufted_duck_MHCII_entry_func_effects.csv
       init_min_value: -5  # initial min value in slider
-    entry in 293T cells:
+    entry 293T cells:
       <<: *cell_entry_default
       csv: results/func_effects/averages/293T_entry_func_effects.csv
       init_min_value: -5  # initial min value in slider
-    entry difference between noSA tufted duck MHCII and 293T cells:
+    entry difference MHCII vs SA cells:
       csv: results/func_effect_diffs/tufted-duck-MHCII_vs_293T_entry_diffs.csv
       stat: difference  # column to plot
       positive_color: "#009E73"  # green
