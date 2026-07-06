@@ -1,6 +1,11 @@
 
-# Config for analysis
+# ----------------------------------------------------------------------------
+# Configuration for VitePress homepage
+# https://github.com/dms-vep/dms-vep-pipeline-3/tree/main/homepage
+# ----------------------------------------------------------------------------
+build_vitepress_homepage: true
 
+# Config for analysis
 # ----------------------------------------------------------------------------
 # Relative paths from this directory containing the configuration (and where
 # you will run the pipeline) to the subdirectory where the pipeline submodule
@@ -21,8 +26,8 @@ github_repo_url: https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding
 # and should not be needed for other pipelines.
 github_blob_url: https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/master
 # Some descriptions and metadata about the analysis.
-description: Pseudovirus deep mutational scanning for MHCII binding by A/Anhui/1/2013 H7 pseudovirus
-year: 2025
+description: Pseudovirus deep mutatioinal scanning of HA from A/Anhui/1/2013 (H7N9) for entry and binding to tufted duck MHC-II
+year: 2026
 authors: Bernadeta Dadonaite and Jesse Bloom
 
 # ----------------------------------------------------------------------------
