@@ -28,7 +28,7 @@ github_blob_url: https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding/blob/ma
 # Some descriptions and metadata about the analysis.
 description: Pseudovirus deep mutatioinal scanning of HA from A/Anhui/1/2013 (H7N9) for entry and binding to tufted duck MHC-II
 year: 2026
-authors: Bernadeta Dadonaite and Jesse Bloom
+authors: "[Dadonaite et al](https://doi.org/10.64898/2026.07.17.738765)"
 
 # ----------------------------------------------------------------------------
 # Site numbering, mutation classification, and neut standards

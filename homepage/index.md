@@ -24,7 +24,7 @@ features:
 
 This website provides interactive visualizations and links to numerical data from pseudovirus deep mutational scanning measuring how mutations to an H7 HA (from A/Anhui/1/2013 affect its interaction with tufted duck MHC-II.
 
-For details about the study, see [Dadonaite et al. (2026)]() [**ADD CITATION**].
+For details about the study, see [Dadonaite et al. (2026)](https://doi.org/10.64898/2026.07.17.738765).
 
 Visualizations and data can be accessed by clicking the gray boxes above for each type of measurement, namely:
  - [Effects of H7 HA mutations on entry in cells expressing tufted duck MHC-II or sialic acid](entry)
@@ -44,4 +44,4 @@ These pseudoviruses do not encode any viral proteins other than HA, and so are o
 They therefore provide a safe way to study mutations to the HA protein at biosafety-level-2 outside the context of actual pathogenic influenza.
 The specific H7 HA pseudovirus deep mutational scanning libraries used for these experiments have [been previously described](https://academic.oup.com/ve/article/12/1/veag018/8534428).
 
-See the biosafety statement in the paper about this study ([Dadonaite et al. (2026)]() [**ADD CITATION**]) for additional details.
+See the biosafety statement in the paper about this study ([Dadonaite et al. (2026)](https://doi.org/10.64898/2026.07.17.738765)) for additional details.

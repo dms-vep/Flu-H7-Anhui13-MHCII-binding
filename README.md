@@ -1,6 +1,6 @@
 # Pseudovirus deep mutatioinal scanning of HA from A/Anhui/1/2013 (H7N9) for entry and binding to tufted duck MHC-II
 
-**ADD CITATION WHEN AVAILABLE**
+See [Dadonaite et al (2026)](https://doi.org/10.64898/2026.07.17.738765) for details on this study.
 
 This repository has the code and data. Specifically:
 
